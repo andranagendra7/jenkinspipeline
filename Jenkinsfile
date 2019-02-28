@@ -7,7 +7,8 @@ stages {
 	 stage('Dev') {
 	   steps {
 		 echo "welcome to Dev evironament"
-                 sh "mkdir -p deploy"
+                 sh "pwd"
+		 sh "mvn --versio"
 		 } 
 	    
 		
