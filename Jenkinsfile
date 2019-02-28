@@ -1,9 +1,8 @@
 #!/usr/bin/env grrovy
 
 pipeline {
-   agent {  none
+   agent  none
 	  
-         }
 stages {
          stage('Build') {
 	   steps {
