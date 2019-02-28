@@ -4,25 +4,25 @@ pipeline {
    agent {  
          }
 stages {
-        stage('Build') {
-	  steps {
+         stage('Build') {
+	   steps {
 		 echo "welcome to build evironament"
 		 sh 'date'
-		} 
+		 } 
 		
-	 }
-	 stage('Test') {
-	    steps {
+	     }
+	  stage('Test') {
+	     steps {
 		   echo "welcome to build evironament"
 		   sh cal
 		   }
-		
+	  }
 	 stage('Stage') {
 	     steps {
            	    echo "welcome to build evironament"
 		    sh 'cat /etc/passwd'
 		   } 
-	}
-}
+	     }
+     }   
 
 }
