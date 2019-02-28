@@ -7,8 +7,9 @@ stages {
 	 stage('Dev') {
 	   steps {
 		 echo "welcome to Dev evironament"
-		 sh 'pwd; la -l'
+                 sh "mkdir -p deploy"
 		 } 
+	    
 		
 	     }
          stage('Build') {
