@@ -7,14 +7,14 @@ stages {
          stage('Build') {
 	   steps {
 		 echo "welcome to build evironament"
-		 sh 'date'
+		 sh 'java --version'
 		 } 
 		
 	     }
 	  stage('Test') {
 	     steps {
 		   echo "welcome to build evironament"
-		   sh cal
+		   sh 'cal'
 		   }
 	  }
 	 stage('Stage') {
