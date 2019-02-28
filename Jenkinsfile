@@ -1,29 +1,28 @@
 #!/usr/bin/env grrovy
 
 pipeline {
-
-node{
-}
-stage{
-        stages(Build){
+   agent {  
+         }
+stages {
+        stage('Build') {
+	  steps {
+		 echo "welcome to build evironament"
+		 sh 'date'
+		} 
 		
-		echo "welcome to build evironament"
+	 }
+	 stage('Test') {
+	    steps {
+		   echo "welcome to build evironament"
+		   sh cal
+		   }
 		
-		sh date
-		
-		}
-		stages(Test){
-		
-		echo "welcome to build evironament"
-		
-		sh cal
-		
-		}
-		stages(Stage){
-		
-		echo "welcome to build evironament"
-		sh 'cat /etc/passwd'
-		}
+	 stage('Stage') {
+	     steps {
+           	    echo "welcome to build evironament"
+		    sh 'cat /etc/passwd'
+		   } 
+	}
 }
 
 }
