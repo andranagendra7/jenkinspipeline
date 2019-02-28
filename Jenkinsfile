@@ -8,7 +8,7 @@ stages {
 	   steps {
 		 echo "welcome to Dev evironament"
                  sh "pwd"
-		 sh "/home/mvn --version"
+		 sh "java --version"
 		 } 
 	    
 		
