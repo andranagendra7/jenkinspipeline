@@ -16,6 +16,7 @@ stages {
          stage('Build') {
 	   steps {
 		 echo "welcome to Build evironament"
+		 sh 'mvn --version'
 		 
 		 } 
 		
