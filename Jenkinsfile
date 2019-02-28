@@ -19,7 +19,7 @@ stage{
 		sh cal
 		
 		}
-		stages(stage){
+		stages(Stage){
 		
 		echo "welcome to build evironament"
 		sh 'cat /etc/passwd'
