@@ -1,0 +1,25 @@
+#!/usr/bin/env grrovy
+
+pipline {
+
+node{
+}
+stage{
+        stages(Build){
+		
+		echo "welcome to build evironament"
+		
+		}
+		stages(Test){
+		
+		echo "welcome to build evironament"
+		
+		}
+		stages(stage){
+		
+		echo "welcome to build evironament"
+		
+		}
+}
+
+}
