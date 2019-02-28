@@ -4,7 +4,7 @@ pipeline {
 	agent  none
 	  
 stages {
-	 stage('Build') {
+	 stage('Dev') {
 	   steps {
 		 echo "welcome to Dev evironament"
 		 
