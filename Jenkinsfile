@@ -20,7 +20,7 @@ stages {
 	   steps {
 		 echo "welcome to Build evironament"
 		 sh 'mvn --version'
-		 
+		 sh 'mvn compile'
 		 } 
 		
 	     }
