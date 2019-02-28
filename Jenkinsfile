@@ -1,6 +1,6 @@
 #!/usr/bin/env grrovy
 
-pipline {
+pipeline {
 
 node{
 }
